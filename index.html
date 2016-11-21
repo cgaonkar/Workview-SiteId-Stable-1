@@ -301,7 +301,7 @@
     <![endif]-->
     <div class="container" ng-controller="ErrorCtrl" ng-cloak>
         <div class="logo-container">
-            <!--<img ng-show="logoUrl" class="logo img-responsive" ng-src="{{logoUrl}}" />-->
+            <img ng-show="logoUrl" class="logo img-responsive" ng-src="{{logoUrl}}" />
         </div>
         <div ng-show="inError" ng-include="'views/error.html'"></div>
         <div ng-hide="inError" ng-view="">
